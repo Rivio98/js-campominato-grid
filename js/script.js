@@ -6,20 +6,24 @@ function createSingleSquare(num) {
     square.classList.add('square');
     //aggiungo il numero dentro il div square
     square.innerText = num + 1;
+
+    return square;
 }
 
 //Recupero il pulsante dall HTML
 const button = document.getElementsByName('play');
 
 //Aggiungo l'evento
-button.addEventListener('click' function () {
+play.addEventListener('click', function () {
 
     //Recupero l'elemento che conterrà la griglia
     const grid = document.getElementById('grid');
     //ciclo per creare 100 caselle 
     for (let i = 0; i < 100; i++) {
         //chiamo la funzione per creare le caselle
-        createSingleSquare(i);
+        let item = createSingleSquare(i);
+        //aggiungo la casella alla griglia
+        grid.append(item);
     }
 });
 

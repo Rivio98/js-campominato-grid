@@ -53,3 +53,15 @@ body {
     border: 1px solid white;
     margin-top: 50px;
 }
+
+.square {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: cadetblue;
+    border: 1px solid white;
+}
