@@ -10,6 +10,7 @@ function createSingleSquare(num) {
     //Aggiungo l'evento click al quadrato
     square.addEventListener('click', function () {
         this.classList.add('clicked');
+
     });
 
     //restituisco il quadrato
