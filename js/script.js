@@ -24,6 +24,9 @@ play.addEventListener('click', function () {
 
     //Recupero l'elemento che conterrà la griglia
     const grid = document.getElementById('grid');
+
+    //aggiungo il 'reset' al pulsante gioca in modo che resetti il tutto
+    grid.innerText = '';
     //ciclo per creare 100 caselle 
     for (let i = 0; i < 100; i++) {
         //chiamo la funzione per creare le caselle

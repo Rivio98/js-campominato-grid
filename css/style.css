@@ -47,10 +47,8 @@ body {
     width: 500px;
     height: 500px;
     margin: 0 auto;
-    background-color: azure;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid white;
     margin-top: 50px;
 }
 
