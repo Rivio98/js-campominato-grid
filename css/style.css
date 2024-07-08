@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #d3d3d3ef;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+body {
+    background-color: bisque;
+}
+
+#game-name {
+    color: #fff;
+}
+
+#play {
+    color: #fff;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+#grid {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    margin-top: 50px;
+}
