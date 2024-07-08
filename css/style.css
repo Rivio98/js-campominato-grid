@@ -65,3 +65,7 @@ body {
     background-color: cadetblue;
     border: 1px solid white;
 }
+
+.clicked {
+    background-color: #10383a;
+}

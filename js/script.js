@@ -7,6 +7,12 @@ function createSingleSquare(num) {
     //aggiungo il numero dentro il div square
     square.innerText = num + 1;
 
+    //Aggiungo l'evento click al quadrato
+    square.addEventListener('click', function () {
+        this.classList.add('clicked');
+    });
+
+    //restituisco il quadrato
     return square;
 }
 
